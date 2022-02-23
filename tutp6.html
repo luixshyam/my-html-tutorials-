@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and animation</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: yellowgreen;
+        }
+
+        .box {
+            border: 2px solid red;
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation-name: shyam1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: alternate;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes shyam1 {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 600px;
+            }
+            
+        }y
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            this is box
+        </div>
+    </div>
+</body>
+
+</html>

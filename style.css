@@ -1,0 +1,31 @@
+p{
+    /* font */
+  font-family: 'Roboto Slab', serif;
+  font-size: 33px;
+  line-height: 1em;
+  font-weight: bold;
+  font-style: italic;
+
+  /* color */
+  
+  
+  height: 455px;
+  width: 1000px;
+  border-color: royalblue; 
+  border-style: solid;
+  border-radius: 11px;
+  /* img */
+  /* background-image: url(https://i1.wp.com/css-tricks.com/wp-content/uploads/2018/06/google-fonts.png?fit=1200%2C600&ssl=1); */
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+.container {
+    background-color: royalblue;
+    border: 3px solid black;
+    padding: 10px 20px ;
+    margin: 34px  45px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+
+}
